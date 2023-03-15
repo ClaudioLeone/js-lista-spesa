@@ -5,9 +5,8 @@ let i = 0;
 let listItems = "";
 
 while (i < shoppingList.length){
-    console.log(shoppingList[i]);
     listItems += `<li>${shoppingList[i]}</li>`;
     i++;
 }
-console.log(listItems);
+
 listElement.innerHTML = listItems;
