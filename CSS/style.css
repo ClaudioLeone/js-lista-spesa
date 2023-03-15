@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+}
